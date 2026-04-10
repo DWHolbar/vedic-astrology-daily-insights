@@ -42,9 +42,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-navy-800 mt-8 pt-6 text-center text-xs text-navy-400">
+        <div className="border-t border-navy-800 mt-8 pt-6 text-center text-xs text-navy-400 space-y-2">
           <p>
             Insights are based on Vedic astrological transit analysis and are for guidance purposes only.
+          </p>
+          <p className="text-navy-300">
+            For accurate and personalised readings, please consult a professional astrologer.
           </p>
         </div>
       </div>
