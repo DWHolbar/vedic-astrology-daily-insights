@@ -44,6 +44,12 @@ export default function Home() {
             life path. Get daily insights based on real planetary transits and your Moon
             sign.
           </p>
+          <Link
+            href="/calculator"
+            className="inline-block bg-gold-500 text-navy-950 px-6 py-3 rounded-lg font-semibold hover:bg-gold-400 transition-colors mb-6"
+          >
+            Calculate Your Moon Sign
+          </Link>
           {now && (
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-navy-200">
               <span className="text-sm">{formattedDate}</span>

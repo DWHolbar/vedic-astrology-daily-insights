@@ -8,6 +8,7 @@ export default function Header() {
 
   const links = [
     { href: '/', label: 'Home' },
+    { href: '/calculator', label: 'Calculator' },
     { href: '/daily-insights/aries', label: 'Daily Insights' },
     { href: '/calendar', label: 'Moon Calendar' },
     { href: '/transits', label: 'Transits' },
