@@ -138,12 +138,13 @@ export default function AboutPage() {
         <div className="bg-navy-50 rounded-xl border border-navy-200 p-6">
           <h2 className="font-semibold text-lg mb-2 text-navy-800">Disclaimer</h2>
           <p className="text-slate-600 text-sm leading-relaxed">
-            The insights provided on this website are based on Vedic astrological transit
-            analysis and are intended for guidance and entertainment purposes only. They
-            should not be taken as definitive predictions or substitutes for professional
-            advice in any area of life. Astrological insights reflect planetary energies and
-            tendencies, not fixed outcomes. Individual experiences may vary based on the
-            complete birth chart (Kundali) and other factors.
+            The content on this website is purely informational, generated from real
+            astronomical transit data and traditional Vedic astrological frameworks. It is
+            not intended as advice, predictions, or a substitute for professional consultation
+            in any area of life. The insights describe planetary positions and their
+            traditional associations &mdash; not fixed outcomes. Individual experiences
+            vary based on the complete birth chart (Kundali) and many other factors.
+            For accurate and personalised readings, please consult a professional astrologer.
           </p>
         </div>
 

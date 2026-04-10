@@ -90,7 +90,7 @@ export default function TransitsPage() {
                       ) : p.id === 'rahu' || p.id === 'ketu' ? (
                         <span className="text-slate-400 text-xs">Always retrograde</span>
                       ) : (
-                        <span className="text-emerald-600 text-xs font-medium">Direct</span>
+                        <span className="text-navy-500 text-xs font-medium">Direct</span>
                       )}
                     </td>
                   </tr>
@@ -123,15 +123,15 @@ export default function TransitsPage() {
                     </p>
                     <p className="text-xs text-amber-600 mt-1">
                       {p.name === 'Mercury' &&
-                        'Communications, technology, and travel may experience disruptions. Review contracts carefully.'}
+                        'Communications, technology, and travel are areas of review. Contracts and agreements benefit from a second look.'}
                       {p.name === 'Venus' &&
-                        'Relationships and finances undergo reevaluation. Past connections may resurface.'}
+                        'Relationships and finances are being reevaluated. Past connections are more present in awareness.'}
                       {p.name === 'Mars' &&
-                        'Physical energy may fluctuate. Avoid impulsive actions and redirect drive inward.'}
+                        'Physical energy fluctuates. Drive and motivation are directed more inward than outward.'}
                       {p.name === 'Jupiter' &&
-                        'Growth and expansion turn inward. Philosophical reflection is favored.'}
+                        'Growth and expansion turn inward. Philosophical reflection is the predominant theme.'}
                       {p.name === 'Saturn' &&
-                        'Review long-term commitments and structures. Patience with delays is essential.'}
+                        'Long-term commitments and structures are under review. Patience with delays is a central theme.'}
                     </p>
                   </div>
                 </div>
@@ -139,8 +139,7 @@ export default function TransitsPage() {
             </div>
           ) : (
             <p className="text-slate-500">
-              No major planets are currently retrograde. This is a favorable period for
-              initiating new projects and moving forward with plans.
+              No major planets are currently retrograde.
             </p>
           )}
         </div>
@@ -173,8 +172,8 @@ export default function TransitsPage() {
                   </p>
                   <p className="text-xs text-slate-500 mt-1">
                     {ecl.type === 'solar'
-                      ? 'Solar eclipses mark powerful new beginnings and can trigger significant life changes.'
-                      : 'Lunar eclipses bring culmination and revelation, illuminating hidden truths.'}
+                      ? 'Solar eclipses occur when the Moon passes between the Sun and Earth, temporarily blocking sunlight.'
+                      : 'Lunar eclipses occur when the Earth passes between the Sun and Moon, casting a shadow on the Moon.'}
                   </p>
                 </div>
               </div>
